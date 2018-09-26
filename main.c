@@ -6,12 +6,12 @@
 #include "isl1208.h"  
 #include "i2c_ee.h"  
 
-uint8_t doorstates1 = 0;        // 0 开门 1 关门
-uint8_t doorstates2 = 0;
-uint8_t doorerror1 = 0;         //1报警
-uint8_t doorerror2 = 0;
-uint8_t doorucerror1 = 0;         //1报警
-uint8_t doorucerror2= 0;
+//uint8_t doorstates1 = 0;        // 0 开门 1 关门
+//uint8_t doorstates2 = 0;
+//uint8_t doorerror1 = 0;         //1报警
+//uint8_t doorerror2 = 0;
+//uint8_t doorucerror1 = 0;         //1报警
+//uint8_t doorucerror2= 0;
 
 uint16_t testtimecount = 0;
 uint16_t releasetimecount = 0;
